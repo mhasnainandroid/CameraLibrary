@@ -66,6 +66,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    implementation(project(":camera-mylibrary"))
+//    implementation(project(":camera-mylibrary"))
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation ("com.github.mhasnainandroid:CameraLibrary:1.0.2")
 }

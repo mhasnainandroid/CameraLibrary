@@ -1,15 +1,7 @@
 package com.elexoft.cameralibrary
-
-import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.ui.Modifier
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import com.elexoft.camera_mylibrary.CameraX
 import com.elexoft.cameralibrary.ui.theme.CameraLibraryTheme
 
@@ -22,11 +14,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             CameraLibraryTheme {
                 CameraX(
-                    onPhotoTaken = {
-                    },
-                    onVideoCaptured = {
-
-                    }
+                    onPhotoTaken = {},
+                    onVideoCaptured = {}
                 )
             }
         }

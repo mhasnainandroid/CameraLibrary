@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        minSdk = 28
+        minSdk = 26
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -76,19 +76,3 @@ afterEvaluate {
         }
     }
 }
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            // Creates a Maven publication called "release".
-//            release(MavenPublication) {
-//                // Applies the component for the release build variant.
-//                from components.release
-//
-//                        // You can then customize attributes of the publication as shown below.
-//                        groupId = 'com.bks.compose.circularprogressview'
-//                artifactId = 'circular-progress-view'
-//                version = '1.0.0'
-//            }
-//        }
-//    }
-//}
